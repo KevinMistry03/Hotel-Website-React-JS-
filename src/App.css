@@ -1,3 +1,7 @@
+*{
+  font-family: 'Manrope', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +40,25 @@
     transform: rotate(360deg);
   }
 }
+
+
+.rounded-3 {
+    border-radius: 0.3rem!important;
+    position: relative;
+    margin-top: -7%;
+}
+
+.bg-light{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #6c757d!important;
+    margin: 8px 0px 0px 20px;
+    position: relative;
+    left: 15px;
+    font-size: 15px;
+}
+
